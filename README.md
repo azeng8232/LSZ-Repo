@@ -1,3 +1,3 @@
 # LSZ-Repo
 
-Michelle Liu, Alan Shaw, Anya Zeng GitHubt project
+Michelle Liu, Alan Shaw, Anya Zeng GitHub project
