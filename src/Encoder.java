@@ -25,12 +25,7 @@ public class Encoder {
 	
 	public List<String> read(){
 		List<String> normalData = new ArrayList<String>();
-		for(int i = 0; i < test.length; i++){
-			normalData.set(i, "" + (char)test[i]);
-		}
-		for(int i = 0; i < normalData.size(); i++){
-			System.out.println(normalData.get(i));
-		}
+		
 		return normalData;
 		
 	}
