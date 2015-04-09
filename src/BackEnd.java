@@ -11,7 +11,9 @@ public class BackEnd {
 		
 		 String [][] usersandmessages = new String[0][0];				
 		int x = usersandmessages.length;
+		String Smessages = "";
 		
+		//returns a list of all plaintext messages submitted by a user
 		public List<String> getMessage(String username)
 		{
 			List<String> messages = new ArrayList<String>();
@@ -35,7 +37,7 @@ public class BackEnd {
 		}
 		
 		
-		//add msg to the encoded file using Encoder.write
+		//adds msg to the Encoded file(s) accosviated with username
 		public void addMessage(String username, String msg)
 		{
 			for(int i = 0; i>x; i++)
@@ -48,6 +50,7 @@ public class BackEnd {
 			
 		}
 		
+		//returns a list of all users who have submmited a message
 		public List<String> getUsers()
 		{
 			List<String> userList = new ArrayList<String>();
